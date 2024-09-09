@@ -1,0 +1,59 @@
+/* cv by @sanjacob */
+
+/* Colours */
+
+:root {
+  color-scheme: light;
+}
+
+
+/* Fonts */
+
+:root {
+  --font-header: 'SUSE', sans-serif;
+  --font-text: 'SUSE', sans-serif;
+
+	--size-header: 4rem;
+	--size-subheader: 1.5rem;
+	--size-text: 1rem;
+	--size-sub: 0.8rem;
+}
+
+
+/* Theme */
+
+html {
+	scroll-behavior: smooth;
+	height: 100%;
+}
+
+body {
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, th, figcaption {
+  font-family: var(--font-header);
+	font-size: var(--size-header);
+}
+
+h4, h5, h6, th, figcaption {
+	font-size: var(--size-subheader);
+}
+
+p, span, li, label, input, td {
+  font-family: var(--font-text);
+	font-size: var(--size-text);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: unset;
+}
